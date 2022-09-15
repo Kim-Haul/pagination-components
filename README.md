@@ -22,7 +22,7 @@ function App() {
 
   // 파라미터 변경 내역 호출 api -> 호출 쿼리
   // useQuery의 첫번째 패러미터는 query key로, unique한 문자열 또는 배열을 사용할 수 있다. 
-  배열을 사용하는 경우, 배열 원소의 값이 바뀌면 queryFn이 재실행된다.
+  // 배열을 사용하는 경우, 배열 원소의 값이 바뀌면 queryFn이 재실행된다.
   
   const { data: params_query, refetch } = useQuery(
     [currentPage],
